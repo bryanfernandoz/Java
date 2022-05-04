@@ -1,0 +1,9 @@
+//java program to generate random number
+
+class Random {
+    public static void main(String[] args) {
+        int num = (int)(Math.random() * 10000001); //this line pick's a random number and stores it in the integger variable "num"
+        System.out.println( num ); //the random number stored in "num" is printed 
+ 
+    }
+}
