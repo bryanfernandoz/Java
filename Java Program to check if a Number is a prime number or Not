@@ -1,0 +1,27 @@
+//Java Program to check if a Number is a prime number or Not
+//You can compile these codes on an online java compilers(https://www.programiz.com/java-programming/online-compiler/)
+//To compile these codes on an independent compiler you can make the main class as public (eg:public class Prime{ )
+
+
+class Prime{    
+ public static void main(String args[]){    
+  int i,m=0,flag=0;      
+  int n=4;//here we declare a variable "n" in which we store the number 4    
+  m=n/2; //this line of code divides the number stored in n     
+  if(n==0||n==1){  //here we declare an if statement to print the number is not a prime number if the number is 1 or 0
+   System.out.println(n+" is not prime number");      
+  }else{  //this else statement checks if the number is divisible by any other number or not  
+   for(i=2;i<=m;i++){      
+    if(n%i==0){      
+     System.out.println(n+" is not prime number");      
+     flag=1;      
+     break;      
+    }      
+   }      
+   if(flag==0)  { System.out.println(n+" is prime number"); }  
+  } 
+}    
+}   
+
+
+//💻
