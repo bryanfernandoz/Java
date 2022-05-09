@@ -1,4 +1,6 @@
 //java program to generate random number
+//You can compile these codes on an online java compilers(https://www.programiz.com/java-programming/online-compiler/)
+//To compile these codes on an independent compiler you can make the main class as public (eg:public class Random{ )
 
 class Random {
     public static void main(String[] args) {
@@ -7,3 +9,6 @@ class Random {
  
     }
 }
+
+
+//💻
