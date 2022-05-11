@@ -1,0 +1,22 @@
+//java program to print a Pattern
+//You can compile these codes on an online java compilers(https://www.programiz.com/java-programming/online-compiler/)
+//To compile these codes on an independent compiler you can make the main class as public (eg:public class Pattern{ )
+
+class Pattern   
+{   
+  public static void main(String args[])   
+  {   
+    int i, j, row=6;   //here we declare integer variable 'i' for rows and another integer variable 'j' for columns
+    for(i=0; i<row; i++)  //here we declare a 'for' outer loop for rows   
+    {   
+      for(j=0; j<=i; j++)   //here we declare another 'for' loop for the number of time the specified element(in this program star'*') has to be printed
+      {      
+        System.out.print(" * ");   
+      }     
+      System.out.println();   
+    }   
+   }   
+}  
+
+
+//💻
